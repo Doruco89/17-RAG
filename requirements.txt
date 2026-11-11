@@ -1,0 +1,17 @@
+# 테스트 환경: Python 3.11, Windows 11 (CUDA 12.8). 아래는 '최소 버전' 기준입니다.
+# GPU용 torch 설치: --index-url https://download.pytorch.org/whl/cu128
+torch>=2.11
+torchvision>=0.26
+transformers>=5.18
+datasets>=5.0
+diffusers>=0.40
+accelerate>=1.15
+peft>=0.21
+chromadb>=1.5
+flask>=3.1
+requests>=2.34
+pillow>=12.3
+matplotlib>=3.11
+scikit-learn>=1.9
+jupyterlab>=4.6
+ipykernel>=7.4
